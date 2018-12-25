@@ -1,0 +1,112 @@
+body {
+    background: #374046;
+    color: #fff;
+    font-family: 'Karla', monospace;
+    font-size: 16px;
+}
+
+a:link, a:hover, a:visited {
+    color: #fff;
+    font-weight: bold;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.pt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 1.0em;
+}
+
+.mt-2 {
+    margin-top: 2.0em;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.pb-0 {
+    margin-bottom: 0;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.section-post h2 {
+    margin-bottom: 0.25em;
+}
+
+.section-post .posted-on {
+    margin-bottom: 2em;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.blog-logo {
+    max-height: 120px;
+    max-width: 120px;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.page-header {
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
+}
+
+pre.line-numbers {
+    position: relative;
+    padding-left: 3.8em;
+    counter-reset: linenumber;
+}
+
+pre.line-numbers > code {
+    position: relative;
+    white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    font-size: 100%;
+    left: -3.8em;
+    width: 3em; /* works for line-numbers below 1000 lines */
+    letter-spacing: -1px;
+    border-right: 1px solid #999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.line-numbers-rows > span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+    content: counter(linenumber);
+    color: #999;
+    display: block;
+    padding-right: 0.8em;
+    text-align: right;
+}
+
+.section-post {
+
+}
