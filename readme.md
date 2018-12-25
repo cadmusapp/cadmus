@@ -68,7 +68,7 @@ Currently, the search mechanism scans each file for the presence of a queried te
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 Version 2, December 2004
 
-Copyright (C) 2004 Mamoru Urakawa <mamoru@undernet.space>
+Copyright (C) 2018 Liam Demafelix <hello@liam.ph>
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
