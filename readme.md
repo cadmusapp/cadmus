@@ -27,7 +27,7 @@ Cadmus is an extremely lightweight, flat-file blogging platform powered by Markd
 
 ## Deployment
 
-Just [download the latest release](https://github.com/liamdemafelix/cadmus/releases/download/v1.0.0/undernet-v1.0.0.zip) and extract it to your public folder. Then in the folder where you extracted the archive, create a `content` folder. This should be writable by the web server. For most cPanel-based hosts, `0755` is enough, but consult your provider if you are not sure.
+Just [download the latest release](https://github.com/liamdemafelix/cadmus/releases/download/v1.0.0/cadmus-v1.0.0.zip) and extract it to your public folder. Then in the folder where you extracted the archive, create a `content` folder. This should be writable by the web server. For most cPanel-based hosts, `0755` is enough, but consult your provider if you are not sure.
 
 Your `content` folder contains all your posts.
 

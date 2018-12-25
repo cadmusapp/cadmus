@@ -2,7 +2,7 @@
 <html lang="en" xml:lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php if (empty($title)) echo "The Undernet"; else echo $title . " - The Undernet"; ?></title>
+    <title><?php if (empty($title)) echo "Liam Demafelix"; else echo $title . " - Liam Demafelix"; ?></title>
     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/bootstrap.min.css" rel="stylesheet">

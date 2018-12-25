@@ -12,16 +12,15 @@ define("APP_ROOT", "./");
 require APP_ROOT . "bootstrap.php";
 
 /**
- * Require the header partial file.
- */
-require APP_ROOT . "partials/header.php";
-
-/**
  * Start the body
  */
 $identifier = $_SERVER['REQUEST_URI'];
 $identifier_plain = preg_replace('/\\?.*/', '', $identifier);
 if (empty($identifier_plain) || $identifier_plain == '/') {
+    /**
+     * Require the header partial file.
+     */
+    require APP_ROOT . "partials/header.php";
     require APP_ROOT . "partials/home.php";
 } else {
     // Determine if a published post with this slug exists
@@ -34,6 +33,10 @@ if (empty($identifier_plain) || $identifier_plain == '/') {
         exit;
     }
     $title = get_meta($path, "Title");
+    /**
+     * Require the header partial file.
+     */
+    require APP_ROOT . "partials/header.php";
     require APP_ROOT . "partials/view.php";
 }
 
