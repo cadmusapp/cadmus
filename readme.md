@@ -19,6 +19,11 @@ Cadmus is an extremely lightweight, flat-file blogging platform powered by Markd
 * Does not use a framework, extremely lightweight
 * Easy content backup (all data in one folder)
 * Disqus comment system integration
+* No fancy admin panels
+    * Upload posts via any file manager
+    * Update Cadmus by overwriting system files
+    * No complicated user management system
+    * Customize by editing the files directly: no theme setup required!
 
 ## Deployment
 
