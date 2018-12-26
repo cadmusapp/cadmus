@@ -56,7 +56,9 @@ Your **metadata** defines the various characteristics of your post. Currently, t
 
 You can add any other metadata you want, just make sure it follows the format `Identifier: Value`. You can retrieve the value of a metadata using `get_meta($file, $identifier)`. For instance, to pull the title, it's `echo get_meta("./content/test.1.txt", "Title");`.
 
-The **Date** metadata is a non-formatted string (direct output). If it is not defined, the system takes the latest modification time of the file via `filemtime()`.
+An optional metadata tag, `Excerpt` is used when displaying contents in post listings when present. Otherwise, Cadmus takes the first 150 characters of your post and adds an ellipsis to it.
+
+The optional `Date` metadata is a non-formatted string (direct output). If it is not defined, the system takes the latest modification time of the file via `filemtime()`.
 
 ## Full-Text Search
 
