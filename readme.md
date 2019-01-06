@@ -2,6 +2,8 @@
 
 Cadmus is an extremely lightweight, flat-file blogging platform powered by Markdown.
 
+> Version 2 is under development and you can follow its progress on [its repository](https://github.com/cadmusapp/v2). Version 1 will be supported until the stable release of version 2.
+
 ## Features
 
 * Responsive design by default
